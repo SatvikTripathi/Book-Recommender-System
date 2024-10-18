@@ -18,20 +18,28 @@
 
 <body style = "background-color : black;">
 
-    <nav class = "navbar" style = "background-color: #00a65a;">
+    <!-- <nav class = "navbar" style = "background-color: black;">
         <a class = "navbar-brand">Your Book Recommender</a>
         <ul class = 'nav navbar-nav'>
             <li><a href = "/">Home</a></li>
             <li><a href = "/recommend">Recommend</a></li>
             <li><a href = "">Contact</a></li>
         </ul>
+    </nav> -->
+
+    <nav class = "navbar" style = "background-color: black;">
+        <h1 class = "navbar-brand text-white" style="font-size: 50px">Book Recommender System</h1>
+        <ul class = 'nav navbar-nav'>
+            <li><a class = "text-white" href = "/">Home</a></li>
+            <li><a class = "text-white" href = "/recommend">Recommend</a></li>
+            <li><a class = "text-white" href = "">Contact</a></li>
+        </ul>
     </nav>
 
     <div class = "container">
         <div class = "row">
             <div class = "col-md-12">
-                <h1 class = "text-white" style="font-size: 50px">5 Recommendations</h1>
-                <h3 class = "text-white" style="font-size: 25px"> based on your choice</h3>
+                <h2 class = "text-white" style="font-size: 25px">Top 5 books recommend to you based on your choice</h2>
                 <form action = "/recommend_books", method = "POST">
                     <input name = "user_input" type = "text", class = "form-control"><br>
                     <input type = "submit" class = "btn btn-sm btn-warning">

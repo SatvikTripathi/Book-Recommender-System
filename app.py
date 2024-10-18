@@ -30,7 +30,7 @@ def recommend():
     # fetching index with book name:
     suggestions = []
     index = np.where(pt.index == user_input)[0][0]
-    suggested_books = sorted(list(enumerate(similarity_score[index])), key = lambda x : x[1], reverse = True)[1 : 11]
+    suggested_books = sorted(list(enumerate(similarity_score[index])), key = lambda x : x[1], reverse = True)[1 : 6]
 
     for i in suggested_books:
         items = []

@@ -9,35 +9,32 @@
 
 <style>
     .text-white{
-        color:white
-    }
-    .text-pink{
-        color: pink
+        color: white;
     }
 </style>
 
 <body style = "background-color : black;">
 
-    <nav class = "navbar" style = "background-color: #00a65a;">
-        <a class = "navbar-brand">Your Book Recommender</a>
+    <nav class = "navbar" style = "background-color: black;">
+        <h1 class = "navbar-brand text-white" style="font-size: 50px">Book Recommender System</h1>
         <ul class = 'nav navbar-nav'>
-            <li><a href = "/">Home</a></li>
-            <li><a href = "/recommend">Recommend</a></li>
-            <li><a href = "">Contact</a></li>
+            <li><a class = "text-white" href = "/">Home</a></li>
+            <li><a class = "text-white" href = "/recommend">Recommend</a></li>
+            <li><a class = "text-white" href = "">Contact</a></li>
         </ul>
     </nav>
 
     <div class = "container">
         <div class = "row">
             <div class = "col-md-12">
-                <h1 class = "text-white" style="font-size: 50px">Top 100 Books: </h1>
+                <h2 class = "text-white" style="font-size: 40px">Top 100 Books: </h2>
             </div>
 
 
             {% for i in range(book_name | length) %}
             <div class = "col-md-2" style = "margin-top: 50px;">
                 <div class = "card">
-                    <div class = "card-body">
+                    <div class = "card">
                         <img class = "card-img-top"src = {{image[i]}}>
                         <p><h2 style = "font-size: 25px;">{{book_name[i]}}</h2></p>
                         <h4 style = "font-size: 20px;">{{author[i]}}</h4>

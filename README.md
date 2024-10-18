@@ -13,7 +13,7 @@ A popularity-based recommender system is used to suggest the most popular items 
 + Recommending Trending Items
 + Cold Start
 
-![book recommender system_top 100 page](https://github.com/user-attachments/assets/4e23df82-993b-4f8e-8fc6-4faa18a2db98)
+![book recommender system_top 100 page](https://github.com/user-attachments/assets/247ca0dc-d70e-418e-8207-4e637f7cb57e)
 
 ## Collaborative Filtering Based Recommender
 
@@ -26,4 +26,5 @@ This system is helpful in the following scenarios:
 + Sparsity
 + Scalability
 
-![book recommender system_recommender page](https://github.com/user-attachments/assets/78abe4f5-ee40-4c52-bf65-a1f379e27f12)
+![book recommender system_recommender page](https://github.com/user-attachments/assets/2b4278be-d1a4-402b-80e8-f9e962de8136)
+

@@ -26,5 +26,6 @@ This system is helpful in the following scenarios:
 + Sparsity
 + Scalability
 
-![book recommender system_recommender page](https://github.com/user-attachments/assets/2b4278be-d1a4-402b-80e8-f9e962de8136)
+![book recommender system_recommender page](https://github.com/user-attachments/assets/d0f70380-5c80-4520-9913-3d2b2c1b1c61)
+
 

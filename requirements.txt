@@ -1,7 +1,5 @@
 absl-py==2.1.0
 anyio==3.7.1
-argon2-cffi==23.1.0
-argon2-cffi-bindings==21.2.0
 asgiref==3.7.2
 asttokens==2.4.1
 astunparse==1.6.3
@@ -14,13 +12,11 @@ bleach==6.1.0
 blinker==1.6.2
 caer==2.0.8
 certifi==2024.2.2
-cffi==1.16.0
 charset-normalizer==3.3.2
 click==8.1.6
 colorama==0.4.6
 comm==0.2.1
 constantly==23.10.4
-cryptography==42.0.8
 cssselect==1.2.0
 cvlib==0.2.6
 cycler==0.10.0
@@ -167,8 +163,6 @@ traitlets==5.14.1
 trio==0.25.1
 trio-websocket==0.11.1
 turtle==0.0.1
-Twisted==24.3.0
-twisted-iocpsupport==1.0.4
 typing_extensions==4.12.1
 tzdata==2023.3
 urllib3==2.2.1

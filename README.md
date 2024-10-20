@@ -28,4 +28,10 @@ This system is helpful in the following scenarios:
 
 ![book recommender system_recommender page](https://github.com/user-attachments/assets/d0f70380-5c80-4520-9913-3d2b2c1b1c61)
 
+# Technologies Used:
++ Developer Tools: Jupyter Notebook, VS Code
++ Web Framework: Flask
++ Libraries: Pandas v1.3.3, NumPy v1.26.4
++ Version Control: Git
+
 
